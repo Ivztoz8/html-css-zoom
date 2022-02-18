@@ -23,20 +23,19 @@ main{
     display: flex;
     width: 90%;
     height: 100%;
-    flex-direction: row;
+    flex-direction: column;
     overflow-x: auto;
     overflow-y: auto;
-    align-items: center;
     padding-top: 3%;
     flex-wrap: wrap;
-    row-gap: 0.5%;
-    column-gap: 1%;
+    row-gap: 0.3%;
+    column-gap: 0.1%;
 }    
 
 .img_container{
     display: flex;
-    flex-basis: 150px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     background-image: url(https://picsum.photos/300/200.webp);
     background-repeat: no-repeat;
     background-size: contain;
@@ -47,7 +46,7 @@ main{
     position: absolute;
     width: 120px;
     height: 25px;
-    bottom: 0;
+    bottom: 10px;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5);
 }

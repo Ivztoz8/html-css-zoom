@@ -25,20 +25,20 @@ main{
     height: 100%;
     flex-direction: column;
     overflow-x: auto;
-    overflow-y: auto;
-    padding-top: 3%;
+    align-content: center;
     flex-wrap: wrap;
     row-gap: 0.3%;
     column-gap: 0.1%;
+    padding-top: 3%;
 }    
 
 .img_container{
     display: flex;
-    width: 200px;
-    height: 150px;
+    width: 300px;
+    height: 250px;
     background-image: url(https://picsum.photos/300/200.webp);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     position: relative;
 }
 

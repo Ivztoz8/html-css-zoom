@@ -16,9 +16,6 @@ main{
     justify-content: center;
 }
 
-img{
-    position: relative;
-}
 
 /* Main */
 
@@ -26,20 +23,38 @@ img{
     display: flex;
     width: 90%;
     height: 100%;
-    flex-direction: column;
-    row-gap: 2%;
-    column-gap: 0.5%;
+    flex-direction: row;
     overflow-x: auto;
-    flex-wrap: wrap;
+    overflow-y: auto;
+    align-items: center;
     padding-top: 3%;
-
+    flex-wrap: wrap;
+    row-gap: 0.5%;
+    column-gap: 1%;
 }    
 
 .img_container{
     display: flex;
-    width: auto;
-    height: auto;
-    flex-direction: row;
-    justify-content: center;
+    flex-basis: 150px;
+    height: 100px;
+    background-image: url(https://picsum.photos/300/200.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
 }
 
+.micimg_container{
+    position: absolute;
+    width: 120px;
+    height: 25px;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.size_font_mic{
+    color: white;
+    font-size: 0.8em;
+    vertical-align: middle;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+/* Reset HTML */
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* TAG Mods */
+
+main{
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 50px);
+    background-color: black;
+    justify-content: center;
+}
+
+img{
+    position: relative;
+}
+
+/* Main */
+
+.main_section{
+    display: flex;
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+    row-gap: 2%;
+    column-gap: 0.5%;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    padding-top: 3%;
+
+}    
+
+.img_container{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
